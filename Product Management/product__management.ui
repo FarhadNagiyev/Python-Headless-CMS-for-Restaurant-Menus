@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>824</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>KFC-Product Management</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/logo/kfc-logo.jpg</normaloff>:/logo/kfc-logo.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_headingText">
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Add New Product</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_productName">
+          <property name="styleSheet">
+           <string notr="true">color: #C41230;
+font-size:30px;
+padding: 5px</string>
+          </property>
+          <property name="text">
+           <string>Product Name</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="lineEdit_producName">
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid #C41230;
+border-radius:10px;
+font-size:30px;
+padding:5px;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_price">
+          <property name="styleSheet">
+           <string notr="true">color: #C41230;
+font-size:30px;
+padding: 5px</string>
+          </property>
+          <property name="text">
+           <string>Price</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_price">
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid #C41230;
+border-radius:10px;
+font-size:30px;
+padding: 5px</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_imageURL">
+          <property name="styleSheet">
+           <string notr="true">color: #C41230;
+font-size:30px;
+padding: 5px</string>
+          </property>
+          <property name="text">
+           <string>Picture:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLineEdit" name="lineEdit_imageURL">
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid #C41230;
+border-radius:10px;
+font-size:30px;
+padding: 5px</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_description">
+          <property name="styleSheet">
+           <string notr="true">color: #C41230;
+font-size:30px;
+padding: 5px</string>
+          </property>
+          <property name="text">
+           <string>Description:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QTextEdit" name="textEdit_description">
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid #C41230;
+
+font-size:30px;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_create">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #C41230;
+color: rgb(255, 255, 255);
+border: none;
+border-radius:10px;
+height:50px;
+widht: 100px;
+</string>
+        </property>
+        <property name="text">
+         <string>Create</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
