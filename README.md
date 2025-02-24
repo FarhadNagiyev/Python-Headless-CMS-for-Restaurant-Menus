@@ -1,3 +1,4 @@
+![preview](preview.png)
 # Setting Up the Project
 
 ## Step 1: Create the Database
