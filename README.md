@@ -1,3 +1,4 @@
+# About 
 This project integrates multiple technologies for managing and displaying product data:  Frontend: React-based website for an interactive UI. Backend API: Flask REST API to handle data requests. Desktop App: PyQt5 GUI for product management. Database: MySQL with mysql-connector-python for data storage
 # Setting Up the Project
 
